@@ -1,0 +1,101 @@
+#imFeedBack-container {
+	height:500px;
+	z-index:99;
+	position:absolute;
+	/*
+font-size:62.5%;
+*/
+}
+ 
+#imFeedBack-FormContainer {
+	display:none;
+}
+#imFeedBack-Button-container {
+	width:25px;
+}
+ 
+#imFeedBack-Button {
+	height:30px;
+	width:70px;
+	text-align: center;
+	margin-right:-21px;
+}
+.imFeedBack-Button-right {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	/*-ms-writing-mode: tb-rl;
+	filter: flipv fliph;*/
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.imFeedBack-Button-left {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	/*-ms-writing-mode: tb-rl;*/
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	position:relative;
+	left:-21px;
+}
+#imFeedBack-Top-Text {
+	width:400px;
+	margin:7px;
+}
+#imFeedBack-Button span.right {
+	/*
+display:block;
+	
+	-webkit-transform: rotate(-90deg);
+	
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-writing-mode: tb-rl;
+	filter: flipv fliph;
+*/
+	/*
+margin-top:26px;
+*/
+}
+
+#imFeedBack-Button span.left {
+	display:block;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-writing-mode: tb-rl;
+	margin-bottom:30px;
+}
+#imFeedBack-Form h3 {
+	margin-top:0px;
+	line-height:30px;
+	height:30px;
+	text-align:center;
+}
+
+#imFeedBack-Form input, #imFeedBack-Form label {
+	display:block;
+	width:200px;
+	clear:both;
+	margin-left:7px;
+	margin-right:7px;
+	margin-bottom:3px;
+}
+#imFeedBack-Form textarea {
+	display:block;
+	width:500px;
+	height:120px;
+	clear:both;
+	margin-right:7px;
+	margin-left:7px;
+}	
+
+#imFeedBack-Form button {
+	height:24px;
+	width:70px;
+	margin: 7px 0 7px 7px;
+}
+	
+#imFeedBack-Response {
+	color: #ff6600;
+	margin:5px;
+}

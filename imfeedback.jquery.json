@@ -1,0 +1,37 @@
+{
+"name": "imfeedback",
+"title": "ui.imFeedBack",
+"description": "jQuery UI widget for displaying a feedback dialog on your site.",
+"keywords": [
+"ui",
+"feedback",
+"email",
+"dialog"
+],
+"version": "0.6.0",
+"author": {
+"name": "Les Green",
+"url": "https://grasshopperpebbles.com/"
+},
+"maintainers": [
+{
+"name": "Les Green",
+"email": "lesgreen@grasshopperpebbles.com",
+"url": "http://grasshopperpebbles.com"
+}
+],
+"licenses": [
+{
+"type": "GNU",
+"url": "https://github.com/lesgreen/imFeedBack/blob/master/license.txt"
+}
+],
+"bugs": "https://github.com/lesgreen/imFeedBack/issues",
+"homepage": "https://github.com/lesgreen/imFeedBack",
+"docs": "http://grasshopperpebbles.com/ajax/ui-imfeedback-a-jquery-ui-feedback-widget/",
+"download": "https://github.com/lesgreen/imFeedBack",
+"dependencies": {
+"jquery": ">=1.5",
+"jquery-ui": ">=1.8"
+}
+}

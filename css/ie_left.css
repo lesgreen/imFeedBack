@@ -1,0 +1,9 @@
+#imFeedBack-container {
+	*position:absolute;
+	*top:0px;
+}
+#imFeedBack-Button {
+	width:90px;
+	margin-left:0px;
+	*float:left;
+}
